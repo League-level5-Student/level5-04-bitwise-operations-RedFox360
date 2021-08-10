@@ -3,7 +3,14 @@ package _00_Binary_Conversion;
 public class DecimalToBinary {
 	public static void main(String[] args) {
 		//Converting a decimal number to binary is a little trickier.
-		
+//		57
+//		57/2 = 28 remainder 1
+//		28/2 = 14 remainder 0
+//		14/2 = 7 remainder 0
+//		7/2 = 3 remainder 1
+//		3/2 = 1 remainder 1
+//		1/2 = 0 remainder 1
+		System.out.println(convertDecimalToBinary(-57));
 		//EXAMPLE: Convert 43 to binary
 		
 		/*

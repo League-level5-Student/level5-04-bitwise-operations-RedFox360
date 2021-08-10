@@ -51,5 +51,11 @@ public class AndOrXor {
 		// 9      = 1 0 0 1
 		// 11     = 1 0 1 1
 		// 9 ^ 11 = 0 0 1 0 = 2
+		
+		num = 4 ^ 8;
+		System.out.println(num);
+		// 4 = 0 1 0 0
+		// 8 = 1 0 0 0
+		//   = 1 1 0 0
 	}
 }
